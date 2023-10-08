@@ -1,0 +1,108 @@
+{
+	"carName": "ferrari_488_gt3_evo",
+	"basicSetup":
+	{
+		"tyres":
+		{
+			"tyreCompound": 0,
+			"tyrePressure": [ 47, 55, 46, 53 ]
+		},
+		"alignment":
+		{
+			"camber": [ 4, 4, 1, 1 ],
+			"toe": [ 32, 32, 50, 50 ],
+			"staticCamber": [ -2.7193536758422852, -2.713778018951416, -2.2885000705718994, -2.2837374210357666 ],
+			"toeOutLinear": [ 0.00084949511801823974, 0.00084944959962740541, -0.00040873329271562397, -0.0004087580309715122 ],
+			"casterLF": 56,
+			"casterRF": 56,
+			"steerRatio": 4
+		},
+		"electronics":
+		{
+			"tC1": 5,
+			"tC2": 5,
+			"abs": 4,
+			"eCUMap": 0,
+			"fuelMix": 0,
+			"telemetryLaps": 99
+		},
+		"strategy":
+		{
+			"fuel": 81,
+			"nPitStops": 0,
+			"tyreSet": 7,
+			"frontBrakePadCompound": 0,
+			"rearBrakePadCompound": 0,
+			"pitStrategy": [
+				{
+					"fuelToAdd": 80,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 47, 55, 46, 53 ]
+					},
+					"tyreSet": 29,
+					"frontBrakePadCompound": 0,
+					"rearBrakePadCompound": 0
+				},
+				{
+					"fuelToAdd": 105,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 61, 71, 58, 65 ]
+					},
+					"tyreSet": 16,
+					"frontBrakePadCompound": 1,
+					"rearBrakePadCompound": 1
+				},
+				{
+					"fuelToAdd": 105,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 61, 71, 58, 65 ]
+					},
+					"tyreSet": 17,
+					"frontBrakePadCompound": 1,
+					"rearBrakePadCompound": 1
+				}
+			],
+			"fuelPerLap": 2.6838455200195313
+		}
+	},
+	"advancedSetup":
+	{
+		"mechanicalBalance":
+		{
+			"aRBFront": 20,
+			"aRBRear": 13,
+			"wheelRate": [ 5, 5, 1, 1 ],
+			"bumpStopRateUp": [ 11, 11, 8, 8 ],
+			"bumpStopRateDn": [ 0, 0, 10, 10 ],
+			"bumpStopWindow": [ 5, 5, 25, 25 ],
+			"brakeTorque": 20,
+			"brakeBias": 32
+		},
+		"dampers":
+		{
+			"bumpSlow": [ 2, 2, 2, 2 ],
+			"bumpFast": [ 4, 4, 3, 3 ],
+			"reboundSlow": [ 4, 4, 4, 4 ],
+			"reboundFast": [ 3, 3, 2, 2 ]
+		},
+		"aeroBalance":
+		{
+			"rideHeight": [ 3, 6, 5, 18 ],
+			"rodLength": [ -27.762996673583984, -27.762996673583984, -15.763813972473145, -15.763813972473145 ],
+			"splitter": 0,
+			"rearWing": 13,
+			"brakeDuct": [ 3, 4 ]
+		},
+		"drivetrain":
+		{
+			"preload": 16
+		}
+	},
+	"trackBopType": 28
+}
