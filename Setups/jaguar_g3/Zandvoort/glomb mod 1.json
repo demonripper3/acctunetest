@@ -1,0 +1,86 @@
+{
+	"carName": "jaguar_g3",
+	"basicSetup":
+	{
+		"tyres":
+		{
+			"tyreCompound": 0,
+			"tyrePressure": [ 42, 61, 56, 70 ]
+		},
+		"alignment":
+		{
+			"camber": [ 3, 3, 5, 5 ],
+			"toe": [ 25, 25, 65, 65 ],
+			"staticCamber": [ -2.5069077014923096, -2.472491979598999, -1.3365045785903931, -1.3110737800598145 ],
+			"toeOutLinear": [ 0.00049220025539398193, 0.00049220549408346415, 0.0009173123980872333, 0.00091606564819812775 ],
+			"casterLF": 17,
+			"casterRF": 17,
+			"steerRatio": 0
+		},
+		"electronics":
+		{
+			"tC1": 4,
+			"tC2": 0,
+			"abs": 6,
+			"eCUMap": 0,
+			"fuelMix": 0,
+			"telemetryLaps": 0
+		},
+		"strategy":
+		{
+			"fuel": 58,
+			"nPitStops": 0,
+			"tyreSet": 6,
+			"frontBrakePadCompound": 0,
+			"rearBrakePadCompound": 0,
+			"pitStrategy": [
+				{
+					"fuelToAdd": 0,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 0, 0, 0, 0 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 0,
+					"rearBrakePadCompound": 0
+				}
+			],
+			"fuelPerLap": 2.6160812377929688
+		}
+	},
+	"advancedSetup":
+	{
+		"mechanicalBalance":
+		{
+			"aRBFront": 6,
+			"aRBRear": 2,
+			"wheelRate": [ 11, 11, 3, 3 ],
+			"bumpStopRateUp": [ 5, 5, 4, 4 ],
+			"bumpStopRateDn": [ 0, 0, 10, 10 ],
+			"bumpStopWindow": [ 2, 2, 0, 0 ],
+			"brakeTorque": 20,
+			"brakeBias": 45
+		},
+		"dampers":
+		{
+			"bumpSlow": [ 14, 14, 10, 10 ],
+			"bumpFast": [ 12, 12, 10, 10 ],
+			"reboundSlow": [ 16, 10, 10, 10 ],
+			"reboundFast": [ 15, 15, 10, 10 ]
+		},
+		"aeroBalance":
+		{
+			"rideHeight": [ 5, 6, 8, 18 ],
+			"rodLength": [ -23.694385528564453, -23.694385528564453, -11.831552505493164, -11.831552505493164 ],
+			"splitter": 0,
+			"rearWing": 7,
+			"brakeDuct": [ 3, 6 ]
+		},
+		"drivetrain":
+		{
+			"preload": 10
+		}
+	},
+	"trackBopType": 28
+}

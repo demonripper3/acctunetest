@@ -1,0 +1,86 @@
+{
+	"carName": "ktm_xbow_gt4",
+	"basicSetup":
+	{
+		"tyres":
+		{
+			"tyreCompound": 0,
+			"tyrePressure": [ 52, 59, 47, 52 ]
+		},
+		"alignment":
+		{
+			"camber": [ 0, 0, 0, 0 ],
+			"toe": [ 28, 28, 65, 65 ],
+			"staticCamber": [ -4.8758797645568848, -4.8719468116760254, -3.1088407039642334, -3.1040365695953369 ],
+			"toeOutLinear": [ 0.00062764296308159828, 0.00062765023903921247, 0.00064239720813930035, 0.00064241117797791958 ],
+			"casterLF": 26,
+			"casterRF": 26,
+			"steerRatio": 3
+		},
+		"electronics":
+		{
+			"tC1": 0,
+			"tC2": 0,
+			"abs": 2,
+			"eCUMap": 0,
+			"fuelMix": 0,
+			"telemetryLaps": 10
+		},
+		"strategy":
+		{
+			"fuel": 43,
+			"nPitStops": 0,
+			"tyreSet": 8,
+			"frontBrakePadCompound": 1,
+			"rearBrakePadCompound": 1,
+			"pitStrategy": [
+				{
+					"fuelToAdd": 0,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 48, 59, 42, 51 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 1,
+					"rearBrakePadCompound": 1
+				}
+			],
+			"fuelPerLap": 2.3100452423095703
+		}
+	},
+	"advancedSetup":
+	{
+		"mechanicalBalance":
+		{
+			"aRBFront": 1,
+			"aRBRear": 1,
+			"wheelRate": [ 2, 2, 1, 1 ],
+			"bumpStopRateUp": [ 4, 4, 2, 2 ],
+			"bumpStopRateDn": [ 0, 0, 10, 10 ],
+			"bumpStopWindow": [ 0, 0, 50, 50 ],
+			"brakeTorque": 20,
+			"brakeBias": 70
+		},
+		"dampers":
+		{
+			"bumpSlow": [ 15, 15, 12, 12 ],
+			"bumpFast": [ 0, 0, 0, 0 ],
+			"reboundSlow": [ 7, 7, 13, 13 ],
+			"reboundFast": [ 0, 0, 0, 0 ]
+		},
+		"aeroBalance":
+		{
+			"rideHeight": [ 0, 11, 3, 18 ],
+			"rodLength": [ 86.324256896972656, 86.324256896972656, 61.506496429443359, 61.506496429443359 ],
+			"splitter": 0,
+			"rearWing": 5,
+			"brakeDuct": [ 3, 3 ]
+		},
+		"drivetrain":
+		{
+			"preload": 3
+		}
+	},
+	"trackBopType": 8
+}

@@ -1,0 +1,85 @@
+{
+	"carName": "amr_v8_vantage_gt3",
+	"basicSetup":
+	{
+		"tyres":
+		{
+			"tyreCompound": 0,
+			"tyrePressure": [ 52, 61, 52, 59 ]
+		},
+		"alignment":
+		{
+			"camber": [ 2, 2, 8, 8 ],
+			"toe": [ 28, 28, 50, 50 ],
+			"staticCamber": [ -5.2846231460571289, -5.2863025665283203, -4.8290390968322754, -4.828279972076416 ],
+			"toeOutLinear": [ 0.00023024214897304773, 0.00023018098727334291, 0.00029559945687651634, 0.00029553184867836535 ],
+			"casterLF": 3,
+			"casterRF": 3,
+			"steerRatio": 2
+		},
+		"electronics":
+		{
+			"tC1": 2,
+			"tC2": 0,
+			"abs": 4,
+			"eCUMap": 0,
+			"fuelMix": 0,
+			"telemetryLaps": 0
+		},
+		"strategy":
+		{
+			"fuel": 10,
+			"nPitStops": 0,
+			"tyreSet": 4,
+			"frontBrakePadCompound": 0,
+			"rearBrakePadCompound": 0,
+			"pitStrategy": [
+				{
+					"fuelToAdd": 0,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 50, 58, 48, 55 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 1,
+					"rearBrakePadCompound": 1
+				}
+			],
+			"fuelPerLap": 2.1646549701690674
+		}
+	},
+	"advancedSetup":
+	{
+		"mechanicalBalance":
+		{
+			"aRBFront": 3,
+			"aRBRear": 3,
+			"wheelRate": [ 2, 2, 5, 5 ],
+			"bumpStopRateUp": [ 5, 5, 4, 4 ],
+			"bumpStopRateDn": [ 0, 0, 10, 10 ],
+			"bumpStopWindow": [ 6, 6, 55, 55 ],
+			"brakeTorque": 20,
+			"brakeBias": 34
+		},
+		"dampers":
+		{
+			"bumpSlow": [ 22, 22, 12, 12 ],
+			"bumpFast": [ 20, 20, 15, 15 ],
+			"reboundSlow": [ 22, 22, 20, 20 ],
+			"reboundFast": [ 25, 25, 20, 20 ]
+		},
+		"aeroBalance":
+		{
+			"rideHeight": [ 2, 6, 23, 18 ],
+			"rodLength": [ 66.212844848632813, 66.212844848632813, 71.135467529296875, 71.135467529296875 ],
+			"splitter": 0,
+			"rearWing": 8,
+			"brakeDuct": [ 3, 2 ]
+		},
+		"drivetrain":
+		{
+			"preload": 1
+		}
+	}
+}

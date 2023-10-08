@@ -1,0 +1,86 @@
+{
+	"carName": "audi_r8_gt4",
+	"basicSetup":
+	{
+		"tyres":
+		{
+			"tyreCompound": 0,
+			"tyrePressure": [ 39, 49, 34, 42 ]
+		},
+		"alignment":
+		{
+			"camber": [ 4, 4, 4, 4 ],
+			"toe": [ 37, 37, 55, 55 ],
+			"staticCamber": [ -4.4509396553039551, -4.4428234100341797, -1.3519681692123413, -1.3454893827438354 ],
+			"toeOutLinear": [ 4.3353131331969053e-05, 4.3366962927393615e-05, 7.3090472142212093e-05, 7.3079863796010613e-05 ],
+			"casterLF": 19,
+			"casterRF": 19,
+			"steerRatio": 2
+		},
+		"electronics":
+		{
+			"tC1": 1,
+			"tC2": 0,
+			"abs": 1,
+			"eCUMap": 0,
+			"fuelMix": 0,
+			"telemetryLaps": 0
+		},
+		"strategy":
+		{
+			"fuel": 43,
+			"nPitStops": 0,
+			"tyreSet": 3,
+			"frontBrakePadCompound": 1,
+			"rearBrakePadCompound": 1,
+			"pitStrategy": [
+				{
+					"fuelToAdd": 0,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 40, 51, 30, 41 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 1,
+					"rearBrakePadCompound": 1
+				}
+			],
+			"fuelPerLap": 2.5415420532226563
+		}
+	},
+	"advancedSetup":
+	{
+		"mechanicalBalance":
+		{
+			"aRBFront": 1,
+			"aRBRear": 0,
+			"wheelRate": [ 0, 0, 1, 1 ],
+			"bumpStopRateUp": [ 2, 2, 2, 2 ],
+			"bumpStopRateDn": [ 0, 0, 10, 10 ],
+			"bumpStopWindow": [ 0, 0, 0, 0 ],
+			"brakeTorque": 20,
+			"brakeBias": 55
+		},
+		"dampers":
+		{
+			"bumpSlow": [ 10, 10, 7, 7 ],
+			"bumpFast": [ 0, 0, 0, 0 ],
+			"reboundSlow": [ 11, 11, 11, 11 ],
+			"reboundFast": [ 0, 0, 0, 0 ]
+		},
+		"aeroBalance":
+		{
+			"rideHeight": [ 0, 0, 4, 0 ],
+			"rodLength": [ 40.007564544677734, 40.007564544677734, -7.8600606918334961, -7.8600606918334961 ],
+			"splitter": 0,
+			"rearWing": 3,
+			"brakeDuct": [ 5, 5 ]
+		},
+		"drivetrain":
+		{
+			"preload": 2
+		}
+	},
+	"trackBopType": 8
+}

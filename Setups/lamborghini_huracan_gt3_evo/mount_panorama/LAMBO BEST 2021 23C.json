@@ -1,0 +1,119 @@
+{
+	"carName": "lamborghini_huracan_gt3_evo",
+	"basicSetup":
+	{
+		"tyres":
+		{
+			"tyreCompound": 0,
+			"tyrePressure": [ 63, 62, 61, 61 ]
+		},
+		"alignment":
+		{
+			"camber": [ 12, 12, 15, 15 ],
+			"toe": [ 35, 35, 51, 51 ],
+			"staticCamber": [ -3.6714601516723633, -3.6718931198120117, -2.4304871559143066, -2.4304776191711426 ],
+			"toeOutLinear": [ 0.00075399060733616352, 0.00075413193553686142, 0.00026066359714604914, 0.00026068207807838917 ],
+			"casterLF": 16,
+			"casterRF": 16,
+			"steerRatio": 2
+		},
+		"electronics":
+		{
+			"tC1": 2,
+			"tC2": 0,
+			"abs": 4,
+			"eCUMap": 0,
+			"fuelMix": 0,
+			"telemetryLaps": 0
+		},
+		"strategy":
+		{
+			"fuel": 0,
+			"nPitStops": 0,
+			"tyreSet": 1,
+			"frontBrakePadCompound": 0,
+			"rearBrakePadCompound": 0,
+			"pitStrategy": [
+				{
+					"fuelToAdd": 120,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 58, 51, 55, 51 ]
+					},
+					"tyreSet": 0,
+					"frontBrakePadCompound": 1,
+					"rearBrakePadCompound": 1
+				},
+				{
+					"fuelToAdd": 120,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 63, 56, 60, 56 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 1,
+					"rearBrakePadCompound": 1
+				},
+				{
+					"fuelToAdd": 0,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 53, 46, 50, 46 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 1,
+					"rearBrakePadCompound": 1
+				},
+				{
+					"fuelToAdd": 0,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 56, 49, 51, 44 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 1,
+					"rearBrakePadCompound": 1
+				}
+			],
+			"fuelPerLap": 4
+		}
+	},
+	"advancedSetup":
+	{
+		"mechanicalBalance":
+		{
+			"aRBFront": 4,
+			"aRBRear": 6,
+			"wheelRate": [ 3, 3, 3, 3 ],
+			"bumpStopRateUp": [ 6, 6, 9, 9 ],
+			"bumpStopRateDn": [ 0, 0, 10, 10 ],
+			"bumpStopWindow": [ 6, 6, 56, 56 ],
+			"brakeTorque": 20,
+			"brakeBias": 49
+		},
+		"dampers":
+		{
+			"bumpSlow": [ 22, 22, 25, 25 ],
+			"bumpFast": [ 21, 21, 21, 21 ],
+			"reboundSlow": [ 24, 24, 26, 26 ],
+			"reboundFast": [ 21, 21, 21, 21 ]
+		},
+		"aeroBalance":
+		{
+			"rideHeight": [ 2, 6, 4, 18 ],
+			"rodLength": [ -11.369747161865234, -11.369747161865234, -2.436284065246582, -2.436284065246582 ],
+			"splitter": 0,
+			"rearWing": 4,
+			"brakeDuct": [ 3, 2 ]
+		},
+		"drivetrain":
+		{
+			"preload": 8
+		}
+	},
+	"trackBopType": 12
+}
